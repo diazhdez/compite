@@ -1,0 +1,18 @@
+/* Estilos para el diseño en grupos de cuatro */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alinea los grupos a la izquierda */
+}
+
+.grupo {
+  display: flex;
+  width: calc(25% - 20px); /* Ancho ajustado para mostrar cuatro tarjetas por fila */
+  margin: 0 5px 20px 5px; /* Espacio entre las tarjetas */
+  box-sizing: border-box;
+}
+
+/* Estilos adicionales para los bloques de información (tu estilo original) */
+.card {
+  /* Estilos de tus tarjetas aquí */
+}
